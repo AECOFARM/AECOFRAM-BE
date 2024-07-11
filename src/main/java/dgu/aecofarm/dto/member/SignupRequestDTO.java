@@ -1,6 +1,7 @@
 package dgu.aecofarm.dto.member;
 
 import lombok.Data;
+import org.springframework.web.multipart.MultipartFile;
 
 @Data
 public class SignupRequestDTO {
@@ -9,5 +10,4 @@ public class SignupRequestDTO {
     private String password;
     private String phone;
     private Integer schoolNum;
-    private String image;
 }
